@@ -94,7 +94,7 @@
 
             //int[] arrayOne = { 12, 85, 4, 9, 35, 7, 16, 4 };
 
-            ////foreach (int i in arrayOne)
+            ////foreach (int i in arrayOne)                // исходный массив для проверки
             ////{
             ////    Console.Write($"{i} ");
             ////}
@@ -114,7 +114,7 @@
             //{ Console.WriteLine($"Число {number} удалено из массива"); }
             //else { Console.WriteLine($"В массиве отсутствует число {number}"); }
 
-            ////foreach (int i in arrayOne)
+            ////foreach (int i in arrayOne)                 // измененный массив для проверки
             ////{
             ////    Console.Write($"{i} ");
             ////}
@@ -133,55 +133,55 @@
             //    Console.Write($"{arrayTwo[i]} ");
             //}
             //var minValue = arrayTwo[0];
-            //var mediumValue = 0;
+            //var averageValue = 0;
             //var maxValue = arrayTwo[0];
 
             //foreach (var item in arrayTwo)
             //{
             //    if (minValue > item) { minValue = item; }
             //    if (maxValue < item) { maxValue = item; }
-            //    mediumValue = mediumValue + item;
+            //    averageValue += item;
             //}
-            //mediumValue = mediumValue / arrayTwo.Length;
-            //Console.WriteLine($"\nМинимальное значение: {minValue}\nСреднее значение: {mediumValue}\nМаксимальное значение: {maxValue}");
+            //averageValue = averageValue / arrayTwo.Length;
+            //Console.WriteLine($"\nМинимальное значение: {minValue}\nСреднее значение: {averageValue}\nМаксимальное значение: {maxValue}");
 
 
 
 
             //// Task 3 ------------------------------------------------------------------
 
-            //int[] arrayThreeFirst = { 1, 2, 3, 4, 5 };
-            //int[] arrayThreeSecond = { 6, 7, 8, 9, 10 };
-            //var mediumValueFirst = 0;
-            //var mediumValueSecond = 0;
+            //int[] arrayThreeFirst = { 1, 2, 3, 4, 50 };
+            //int[] arrayThreeSecond = { 6, 7, 8, 9, 12 };
+            //var averageValueFirst = 0;
+            //var averageValueSecond = 0;
 
-            //foreach (int i in arrayThreeFirst) 
+            //foreach (int i in arrayThreeFirst)
             //{
             //    Console.Write($"{i}   ");
-            //    mediumValueFirst = mediumValueFirst + i;
+            //    averageValueFirst += i;
             //}
-            //mediumValueFirst = mediumValueFirst / arrayThreeFirst.Length;
-            //Console.WriteLine("");
-            
-            //foreach (int i in arrayThreeSecond) 
-            //{
-            //    Console.Write($"{i}   ");
-            //    mediumValueSecond = mediumValueSecond + i;
-            //}
-            //mediumValueSecond = mediumValueSecond / arrayThreeSecond.Length;
+            //averageValueFirst = averageValueFirst / arrayThreeFirst.Length;
             //Console.WriteLine("");
 
-            //if (mediumValueFirst < mediumValueSecond)
+            //foreach (int i in arrayThreeSecond)
             //{
-            //    Console.WriteLine($"Среднее арифметическое значение первого массива меньше чем второго. {mediumValueFirst} < {mediumValueSecond}");
+            //    Console.Write($"{i}   ");
+            //    averageValueSecond += i;
             //}
-            //else if (mediumValueFirst > mediumValueSecond)
+            //averageValueSecond = averageValueSecond / arrayThreeSecond.Length;
+            //Console.WriteLine("");
+
+            //if (averageValueFirst < averageValueSecond)
             //{
-            //    Console.WriteLine($"Среднее арифметическое значение первого массива больше чем второго. {mediumValueFirst} > {mediumValueSecond}");
+            //    Console.WriteLine($"Среднее арифметическое значение первого массива меньше чем второго. {averageValueFirst} < {averageValueSecond}");
             //}
-            //else 
+            //else if (averageValueFirst > averageValueSecond)
             //{
-            //    Console.WriteLine($"Средние арифметические значение обоих массивов равны: {mediumValueFirst} = {mediumValueSecond}");
+            //    Console.WriteLine($"Среднее арифметическое значение первого массива больше чем второго. {averageValueFirst} > {averageValueSecond}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Средние арифметические значение обоих массивов равны: {averageValueFirst} = {averageValueSecond}");
             //}
 
 
@@ -193,6 +193,9 @@
 
 
             //// Task 1 ------------------------------------------------------------------
+
+
+
 
             //// Task 2 ------------------------------------------------------------------
 
