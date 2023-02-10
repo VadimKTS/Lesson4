@@ -122,7 +122,6 @@
 
             //// Task 2 ------------------------------------------------------------------
 
-
             //Console.WriteLine("Введите желаемый размер массива:");
             //int arrayTwoLenth = Convert.ToInt32(Console.ReadLine());
             //int[] arrayTwo = new int[arrayTwoLenth];
@@ -144,8 +143,6 @@
             //}
             //averageValue = averageValue / arrayTwo.Length;
             //Console.WriteLine($"\nМинимальное значение: {minValue}\nСреднее значение: {averageValue}\nМаксимальное значение: {maxValue}");
-
-
 
 
             //// Task 3 ------------------------------------------------------------------
@@ -194,19 +191,108 @@
 
             //// Task 1 ------------------------------------------------------------------
 
+            //int[] fibonacciSequence = new int[11]; 
+            //fibonacciSequence[0] = 0;
+            //fibonacciSequence[1] = 1;
 
+            //for (int n = 2; n < fibonacciSequence.Length; n++)
+            //{
+            //    fibonacciSequence[n] = fibonacciSequence[n - 2] + fibonacciSequence[n - 1];
+            //}
+            //foreach (int i in fibonacciSequence)                 
+            //{
+            //    Console.Write($"{i} ");
+            //}
 
 
             //// Task 2 ------------------------------------------------------------------
+
+            //Console.WriteLine("Введите сумму вклада: ");
+            //float summary = float.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите срок вклада в месяцах: ");
+            //int period = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 1; i <= period; i++)
+            //{
+            //    summary += summary * 0.07f;
+            //}
+            //Console.WriteLine($"После {period} месяцев сумма вклада составит {summary}"); 
+
 
             //// Task 3 ------------------------------------------------------------------
             //// Calculator
 
             //// Task 4 ------------------------------------------------------------------
 
+            //inputNAgain:
+            //Console.WriteLine("Введите размер массива n больше 5 и меньше, либо равно 10:");
+            //int lengthrandomArray = Convert.ToInt32(Console.ReadLine());
+
+            //if (lengthrandomArray <= 5 || lengthrandomArray > 10)
+            //{
+            //    Console.WriteLine($"Введенное значение размера массива <<{ lengthrandomArray }>> не попадает в диапазон 5>n<=10");
+            //    goto inputNAgain;
+            //}
+            //Random randomVariable = new Random();
+            //int[] randomArray = new int[ lengthrandomArray ];
+            //int counterEvenNumbers = 0;
+
+
+            //for ( int i = 0; i < lengthrandomArray; i++)
+            //{
+            //    randomArray[i] = randomVariable.Next(1, 100);
+            //    if (randomArray[i] % 2 == 0) { counterEvenNumbers++; }    // счетчик четных чисел для указания длинны второго массива
+
+            //}
+
+            //foreach ( int i in randomArray )   // Вывод на экран первого массива
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+            //int[] evenNumbers = new int[counterEvenNumbers];
+            //int i2 = 0;
+            //for ( int i = 0; i < lengthrandomArray; i++ )
+            //{
+            //    if ( randomArray[i] % 2 == 0 )
+            //    {
+            //        evenNumbers[i2] = randomArray[i];
+            //        i2++;
+            //    }
+            //}
+
+            //Console.WriteLine();
+            //foreach (int i in evenNumbers)   // Вывод на экран второго массива
+            //{
+            //    Console.Write($"{i} ");
+            //}
+
+
             //// Task 5 ------------------------------------------------------------------
 
+            //int[] defaultArray= { 11, 52, 33, 54, 86, 23, 87 };
+            //foreach (int i in defaultArray)   
+            //{
+            //    Console.Write($"{i}   ");
+            //}
+
+            //Console.WriteLine();
+            //for (int i = 0; i < defaultArray.Length; i++)
+            //{
+            //    if ( i % 2 != 0 )
+            //    {
+            //        defaultArray[i] = 0;
+            //        Console.Write(" ");
+            //    }
+            //    Console.Write($"{defaultArray[i]}   ");
+            //}
+
+
+
             //// Task 6 ------------------------------------------------------------------
+
+
+
 
             //// Task 7 ------------------------------------------------------------------
 
